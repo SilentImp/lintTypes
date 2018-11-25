@@ -12,9 +12,10 @@ class Citys {
 
   /**
    * add - add new city
-   * @method
    *
-   * @param {string} word - new city
+   * @param {string} word city name
+   *
+   * @return {array} array of citys
    */
   add(word) {
     Citys.collector = [...new Set(Citys.collector.concat(word))].sort();
@@ -29,7 +30,7 @@ class Citys {
    *
    * @param {number} index city index
    *
-   * @returns {string} — city name
+   * @return {string} city name
    */
   getCity(index) {
     if (Citys.collector[index] === undefined) throw new Error('index not found');
