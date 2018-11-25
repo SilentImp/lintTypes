@@ -3,5 +3,5 @@
 ```
 npm i
 npm start
-npm lint
+npm run lint
 ```
