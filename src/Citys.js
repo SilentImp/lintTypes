@@ -14,8 +14,6 @@ class Citys {
    * add - add new city
    *
    * @param {string} word city name
-   *
-   * @return {array} array of citys
    */
   add(word) {
     Citys.collector = [...new Set(Citys.collector.concat(word))].sort();

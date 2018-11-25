@@ -10,6 +10,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   citys.add('Minsk');
   citys.add('Kazan');
   citys.add('Istanbul');
-  citys.add(111);
+  citys.add(222);
   console.log(citys.get());
 })();

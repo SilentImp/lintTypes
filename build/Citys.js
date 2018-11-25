@@ -41,9 +41,10 @@ function () {
 
     /**
      * add - add new city
-     * @method
      *
-     * @param {string} [word] new city
+     * @param {string} word city name
+     *
+     * @return {array} array of citys
      */
     value: function add(word) {
       Citys.collector = _toConsumableArray(new Set(Citys.collector.concat(word))).sort();
@@ -56,7 +57,7 @@ function () {
      *
      * @param {number} index city index
      *
-     * @returns {string} — city name
+     * @return {string} city name
      */
 
   }, {
