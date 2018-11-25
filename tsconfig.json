@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "noEmit": true,
+    "diagnostics": true,
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./ts"
+  },
+  "include": [
+    "src/test.js"
+  ]
+}
